@@ -155,7 +155,7 @@ function App() {
         {
           headers: {
             'Content-Type': 'application/json',
-            Authorization: `Bearer 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`,
+            Authorization: `Bearer ${process.env.REACT_APP_OPENAI_API_KEY}`,
           },
         }
       );
